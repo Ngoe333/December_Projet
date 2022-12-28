@@ -1,0 +1,161 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/Style.css' %}">
+    <link rel="stylesheet" href="./Font-Awesome/all.min.css">
+    <link rel="stylesheet" href="./Font-Awesome/fontawesome.min.css">
+    <title>Mobile-App</title>
+</head>
+<body>
+
+<!-- -----------The stard of the head---------- -->
+    <header class="head">
+        <h1><a href="#html">Stay-<span class="head-span">Good</span></a></h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#New-Designs">New-Designs</a></li>
+                <li><a href="#Promotions">Promotions</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <!-- <i class="fa-solid fa-xmark" id="close-menu"></i> -->
+            </ul>
+        </nav>
+        <button class="btc-sign"><a href="#html">Sign-Up</a></button>
+        <!-- <i class="fa-solid fa-bars" id="open-menu"></i> -->
+    </header>
+<!-- -----------The end of the head---------- -->
+
+
+<!-- -----------The stard of the Home-page---------- -->
+    <section class="Home-page" id="Home">
+        
+        <div class="left-side-text">
+            <h1>
+                She went do luck anwsome bed she easeted!
+            </h1>
+            <button class="btc-home"><a href="#html">Sign-Up</a></button>
+        </div>
+
+        <div class="right-side-images">
+            <div>
+                <img src="{% static './Images/H1.jpg' %}"> 
+            </div>
+
+            <div>
+                <img src="{% static './Images/H2.jpg' %}"> 
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <!-- -----------The stard of the New-Designs---------- -->
+    <main class="okay" id="New-Designs">
+
+        <section class="new-design">
+
+        <h2>New-Designs</h2>
+        
+        <div class="flex-content">
+            <div class="left-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Eum impedit omnis doloremque fugit, et minima labore non, obcaecati,
+                     voluptates iusto earum molestiae. Saepe quos reprehenderit cum, illum iusto earum architecto.
+                     
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eum impedit omnis doloremque fugit, et minima labore non, obcaecati,
+                    voluptates iusto earum molestiae. Saepe quos reprehenderit cum, illum iusto earum architecto.
+                    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Eum impedit omnis doloremque fugit, et minima labore non, obcaecati,
+                     voluptates iusto earum molestiae. Saepe quos reprehenderit cum, illum iusto earum architecto.
+                </p>
+
+                <div class="social-icons">
+                    <h3 class="socila-text">Suivez-Nous</h3>
+
+                   <div class="facebook">
+                     <i class="fa-brands fa-facebook"></i>
+                   </div> 
+                    
+                    <div class="linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <!-- <h3>Chose-use</h3> -->
+                <div class="right-items">
+                    <img src="./Images/N1.jpg" alt="image design">
+                </div>
+
+                <div class="right-items">
+                    <img src="./Images/N2.jpg" alt="image design">
+                </div>
+
+                <div class="right-items">
+                    <img src="./Images/N3.jpg" alt="image design">
+                </div>
+
+                <div class="right-items">
+                    <img src="./Images/N4.jpg" alt="image design">
+                </div>
+                   
+            </div>
+        </div>
+    </section>
+</main>
+          <!-- -----------The end of the New-Design---------- -->
+
+
+<!-- -----------The Start of the Promotions---------- -->
+<main id="Promotions">
+
+    <section class="promotions">
+
+        <h2 class="text-promo">Promotions</h2>
+
+        <div class="img-promotions">
+            <div class="img-promo-items">
+                <img src="./Images/P1.jpg" alt="">
+            </div>
+
+            <div class="img-promo-items">
+                <img src="./Images/P2.jpg" alt="">
+            </div>
+
+            <div class="img-promo-items">
+                <img src="./Images/P3.jpg" alt="">
+            </div>
+        </div>
+
+        <p class="promotions-text">30% of reduction</p>
+
+    </section>
+</main>
+<!-- -----------The End of the Promotions---------- -->
+
+
+
+
+
+
+
+
+    
+
+
+
+    <script src="{% static './Javascript/main.js' %}"></script>
+</body>
+</html>
